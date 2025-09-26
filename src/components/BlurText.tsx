@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { motion, Transition } from "motion/react";
 import { useEffect, useRef, useState, useMemo } from "react";
 
