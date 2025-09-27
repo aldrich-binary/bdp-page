@@ -11,7 +11,7 @@ export function BDPHeader() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-24 lg:pt-32 min-h-screen flex items-center">
+      <section className="pt-44 md:pt-32 min-h-screen flex items-center">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
