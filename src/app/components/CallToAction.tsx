@@ -4,7 +4,7 @@ import { Mail, SendHorizonal } from "lucide-react";
 
 export default function CallToAction() {
   return (
-    <div className="relative">
+    <div className="relative" id="contacto">
       <div className="absolute inset-0 overflow-hidden">
         <LightRays
           raysOrigin="top-center"
@@ -19,17 +19,16 @@ export default function CallToAction() {
           saturation={1}
           fadeDistance={1}
           className="w-full h-full opacity-[0.5]"
-
         />
       </div>
       <section className="relative py-16 bg-black  md:py-32 border border-gray-800 max-w-5xl mx-auto rounded-3xl">
         <div className="mx-auto max-w-5xl px-6">
           <div className="text-center">
             <h2 className="text-balance text-4xl font-semibold lg:text-5xl text-white">
-                Trabajemos juntos
+              Trabajemos juntos
             </h2>
             <p className="mt-4 text-white/80">
-                Deja tu correo y te contactaremos.
+              Deja tu correo y te contactaremos.
             </p>
 
             <form action="" className="mx-auto mt-10 max-w-sm lg:mt-12">

@@ -119,4 +119,14 @@
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* Smooth scrolling para navegación fluida */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Scroll suave personalizado para mejor control */
+  .smooth-scroll {
+    scroll-behavior: smooth;
+  }
 }

@@ -1,6 +1,19 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import { Facebook, Instagram, Menu } from "lucide-react";
 import Link from "next/link";
+
+// Función para scroll suave personalizado
+const smoothScrollTo = (elementId: string) => {
+  const element = document.getElementById(elementId);
+  if (element) {
+    const offsetTop = element.offsetTop - 100; // 100px de offset para el navbar fijo
+    window.scrollTo({
+      top: offsetTop,
+      behavior: "smooth",
+    });
+  }
+};
 
 export const Navbar = () => {
   return (
@@ -14,29 +27,28 @@ export const Navbar = () => {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link
-              href="#acerca"
-              className="text-white hover:text-white transition-colors duration-200 relative group"
+            {/* <button
+              onClick={() => smoothScrollTo("acerca")}
+              className="text-white hover:text-white transition-colors duration-200 relative group cursor-pointer"
             >
               Acerca
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-200 group-hover:w-full"></span>
+            </button> */}
+
+            <Link href="/services">
+              <button className="text-white hover:text-white transition-colors duration-200 relative group cursor-pointer">
+                Servicios
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-200 group-hover:w-full"></span>
+              </button>
             </Link>
 
-            <Link
-              href="#servicios"
-              className="text-white hover:text-white transition-colors duration-200 relative group"
-            >
-              Servicios
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-200 group-hover:w-full"></span>
-            </Link>
-
-            <Link
-              href="#contacto"
-              className="text-white hover:text-white transition-colors duration-200 relative group"
+            <button
+              onClick={() => smoothScrollTo("contacto")}
+              className="text-white hover:text-white transition-colors duration-200 relative group cursor-pointer"
             >
               Contacto
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-200 group-hover:w-full"></span>
-            </Link>
+            </button>
           </nav>
 
           {/* Social Links & CTA */}

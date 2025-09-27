@@ -4,37 +4,37 @@ export function TestimonialSection() {
   const testimonials = [
     {
       quote:
-        "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
-      name: "Sarah Chen",
-      designation: "Product Manager at TechFlow",
+        "BDP nos ayudó a resolver un complejo litigio administrativo que llevaba años estancado. Su expertise en derecho público y su estrategia legal fueron fundamentales para nuestro éxito.",
+      name: "Carlos Mendoza",
+      designation: "CEO de Constructora del Pacífico",
       src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
-        "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
-      name: "Michael Rodriguez",
-      designation: "CTO at InnovateSphere",
+        "La consultoría de BDP en materia de contrataciones públicas transformó completamente nuestros procesos. Su conocimiento profundo del marco legal nos dio una ventaja competitiva significativa.",
+      name: "María Elena Ruiz",
+      designation: "CEO de Servicios Corporativos del Norte",
       src: "https://images.unsplash.com/photo-1697089843672-eece9d6a7848?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
-        "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
-      name: "Emily Watson",
-      designation: "Operations Director at CloudScale",
+        "Cuando enfrentamos una controversia fiscal compleja, BDP demostró un nivel de profesionalismo y resultados excepcionales. Su equipo de litigantes es verdaderamente de clase mundial.",
+      name: "Roberto Silva",
+      designation: "CEO de Grupo Industrial del Sur",
       src: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=755&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
-        "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
-      name: "James Kim",
-      designation: "Engineering Lead at DataPro",
+        "BDP nos acompañó en un proceso de amparo que parecía imposible de ganar. Su estrategia legal innovadora y su dedicación nos permitieron obtener un resultado favorable que cambió el rumbo de nuestra empresa.",
+      name: "Ana Patricia López",
+      designation: "CEO de Tecnologías Avanzadas S.A.",
       src: "https://images.unsplash.com/photo-1572883454114-1cf0031ede2a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       quote:
-        "The scalability and performance have been game-changing for our organization. Highly recommend to any growing business.",
-      name: "Lisa Thompson",
-      designation: "VP of Technology at FutureNet",
+        "La asesoría de BDP en derecho administrativo ha sido fundamental para el crecimiento de nuestra empresa. Su capacidad para anticipar riesgos legales y proponer soluciones estratégicas es incomparable.",
+      name: "Fernando Herrera",
+      designation: "CEO de Desarrollo Urbano Integral",
       src: "https://images.unsplash.com/photo-1514971126075-758e7d825812?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   ];
