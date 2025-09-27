@@ -8,7 +8,7 @@ import { TestimonialSection } from "./components/TestimonialsSection";
 
 export default function Home() {
   return (
-    <main className="bg-black">
+    <main className="">
       <BDPHeader />
       <LogoSection />
       <ContentSection />

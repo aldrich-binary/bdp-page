@@ -34,7 +34,7 @@ export default function RootLayout({
       </head>
 
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
         <div
           style={{
@@ -62,7 +62,6 @@ export default function RootLayout({
           style={{
             position: "relative",
             zIndex: 1,
-            backgroundColor: "#000000",
           }}
         >
           {children}
