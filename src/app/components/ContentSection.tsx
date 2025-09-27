@@ -1,7 +1,42 @@
+import SpotlightCard from "@/components/SpotlightCard";
 import { Card } from "@/components/ui/card";
 import { Cpu, Lock, Sparkles, Zap } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+
+const items = [
+  {
+    image: "https://i.pravatar.cc/300?img=1",
+
+    title: "Sarah Johnson",
+
+    subtitle: "Frontend Developer",
+
+    handle: "@sarahjohnson",
+
+    borderColor: "#3B82F6",
+
+    gradient: "linear-gradient(145deg, #3B82F6, #000)",
+
+    url: "https://github.com/sarahjohnson",
+  },
+
+  {
+    image: "https://i.pravatar.cc/300?img=2",
+
+    title: "Mike Chen",
+
+    subtitle: "Backend Engineer",
+
+    handle: "@mikechen",
+
+    borderColor: "#10B981",
+
+    gradient: "linear-gradient(180deg, #10B981, #000)",
+
+    url: "https://linkedin.com/in/mikechen",
+  },
+];
 
 export default function ContentSection() {
   return (
@@ -28,62 +63,65 @@ export default function ContentSection() {
 
         <div className="relative mx-auto grid grid-cols-2 gap-6 sm:gap-8 lg:grid-cols-4">
           <Link href={"/services/33"}>
-            <Card className="group relative overflow-hidden border-none bg-gray-900/40 p-6 transition-all duration-300 hover:bg-gray-900/60">
+            <SpotlightCard
+              className="custom-spotlight-card h-50"
+              spotlightColor="rgba(0, 229, 255, 0.2)"
+            >
               <div className="mb-4">
                 <div className="inline-flex rounded-lg bg-gray-900/50 p-3">
                   <Zap className="size-5 text-white opacity-80 transition-transform duration-300 group-hover:scale-110" />
                 </div>
               </div>
-              <h3 className="mb-2 text-base font-medium text-white">Rapidez</h3>
-              <p className="text-sm leading-relaxed text-white/70">
-                Atención ágil
-              </p>
-            </Card>
+              <h3 className="mb-2 text-base font-medium text-white">
+                Litigio en Derecho Publico
+              </h3>
+            </SpotlightCard>
           </Link>
           <Link href={"/services/22"}>
-            <Card className="group relative overflow-hidden border-none bg-gray-900/40 p-6 transition-all duration-300 hover:bg-gray-900/60">
+            <SpotlightCard
+              className="custom-spotlight-card h-50"
+              spotlightColor="rgba(0, 229, 255, 0.2)"
+            >
               <div className="mb-4">
                 <div className="inline-flex rounded-lg bg-gray-900/50 p-3">
                   <Cpu className="size-5 text-white opacity-80 transition-transform duration-300 group-hover:scale-110" />
                 </div>
               </div>
               <h3 className="mb-2 text-base font-medium text-white">
-                Experiencia
+                Derecho Regulatorio y de Cumplimiento
               </h3>
-              <p className="text-sm leading-relaxed text-white/70">
-                Casos éxito
-              </p>
-            </Card>
+            </SpotlightCard>
           </Link>
+
           <Link href={"/services/22"}>
-            <Card className="group relative overflow-hidden border-none bg-gray-900/40 p-6 transition-all duration-300 hover:bg-gray-900/60">
+            <SpotlightCard
+              className="custom-spotlight-card h-50"
+              spotlightColor="rgba(0, 229, 255, 0.2)"
+            >
               <div className="mb-4">
                 <div className="inline-flex rounded-lg bg-gray-900/50 p-3">
                   <Lock className="size-5 text-white opacity-80 transition-transform duration-300 group-hover:scale-110" />
                 </div>
               </div>
               <h3 className="mb-2 text-base font-medium text-white">
-                Confidencialidad
+                Contratación Pública.
               </h3>
-              <p className="text-sm leading-relaxed text-white/70">
-                Su privacidad
-              </p>
-            </Card>
+            </SpotlightCard>
           </Link>
           <Link href={"/services/22"}>
-            <Card className="group relative overflow-hidden border-none bg-gray-900/40 p-6 transition-all duration-300 hover:bg-gray-900/60">
+            <SpotlightCard
+              className="custom-spotlight-card h-50"
+              spotlightColor="rgba(0, 229, 255, 0.2)"
+            >
               <div className="mb-4">
                 <div className="inline-flex rounded-lg bg-gray-900/50 p-3">
                   <Sparkles className="size-5 text-white opacity-80 transition-transform duration-300 group-hover:scale-110" />
                 </div>
               </div>
               <h3 className="mb-2 text-base font-medium text-white">
-                Innovación
+                Derecho de la Energía y Sustentabilidad
               </h3>
-              <p className="text-sm leading-relaxed text-white/70">
-                Más modernos
-              </p>
-            </Card>
+            </SpotlightCard>
           </Link>
         </div>
       </div>
