@@ -34,7 +34,7 @@ export default function RootLayout({
       </head>
 
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
       >
         <div
           style={{
@@ -44,6 +44,7 @@ export default function RootLayout({
             height: "100dvh",
             zIndex: 0,
             pointerEvents: "none",
+            backgroundColor: "#000000",
           }}
         >
           <Beams
@@ -57,7 +58,15 @@ export default function RootLayout({
             rotation={34}
           />
         </div>
-        <div style={{ position: "relative", zIndex: 1 }}>{children}</div>
+        <div
+          style={{
+            position: "relative",
+            zIndex: 1,
+            backgroundColor: "#000000",
+          }}
+        >
+          {children}
+        </div>
       </body>
     </html>
   );
