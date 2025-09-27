@@ -12,10 +12,10 @@ export default function Home() {
       <BDPHeader />
       <LogoSection />
       <ContentSection />
-      <TestimonialSection/>
+      <TestimonialSection />
       <TeamSection />
-      <CallToAction/>
-      <Footer/>
+      <CallToAction />
+      <Footer />
     </main>
   );
 }
