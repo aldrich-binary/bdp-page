@@ -26,7 +26,9 @@ export function BDPHeader() {
                     direction="top"
                     className="block"
                   />
-                  <span className="text-white"> derecho público</span>
+                  <span className="text-white font-light text-5xl">
+                    derecho público
+                  </span>
                 </h1>
 
                 <p className="text-xl text-white/80 leading-relaxed max-w-2xl">
@@ -36,12 +38,12 @@ export function BDPHeader() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="group border border-white/20 hover:border-white/40 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 hover:bg-white/10">
+                <button className="cursor-pointer group border border-white/20 hover:border-white/40 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 hover:bg-white/10">
                   Agenda una consulta
                   <ArrowRight className="inline-block ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </button>
 
-                <button className="group border border-white/20 hover:border-white/40 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 hover:bg-white/10">
+                <button className="cursor-pointer group border border-white/20 hover:border-white/40 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 hover:bg-white/10">
                   Conoce nuestros servicios
                 </button>
               </div>
@@ -98,7 +100,7 @@ export function BDPHeader() {
             {/* Right Content - Feature Cards */}
             <div className="space-y-6">
               <div className="grid gap-6">
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-200">
+                <div className="animate__animated animate__fadeInUp animate__delay-1s bg-white/5 backdrop-blur-2xl border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-200">
                   <div className="flex items-center space-x-4">
                     <div className="h-12 w-12 rounded-xl  flex items-center justify-center">
                       <Scale className="h-6 w-6 text-white" />
@@ -114,7 +116,7 @@ export function BDPHeader() {
                   </div>
                 </div>
 
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-200">
+                <div className="animate__animated animate__fadeInUp animate__delay-2s bg-white/5 backdrop-blur-2xl border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-200">
                   <div className="flex items-center space-x-4">
                     <div className="h-12 w-12 rounded-xl  flex items-center justify-center">
                       <Users className="h-6 w-6 text-white" />
@@ -130,7 +132,7 @@ export function BDPHeader() {
                   </div>
                 </div>
 
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-200">
+                <div className="animate__animated animate__fadeInUp animate__delay-3s bg-white/5 backdrop-blur-2xl border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-200">
                   <div className="flex items-center space-x-4">
                     <div className="h-12 w-12 rounded-xl  flex items-center justify-center">
                       <Shield className="h-6 w-6 text-white" />
