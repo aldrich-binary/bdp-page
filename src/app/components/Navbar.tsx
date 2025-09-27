@@ -22,7 +22,20 @@ export const Navbar = () => {
         <div className="flex h-14 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-white font-semibold text-lg">BDP Legal</span>
+            <div className="flex flex-col items-center justify-center">
+              <span
+                className="font-light text-2xl text-white"
+                style={{
+                  WebkitTextStroke: "1px",
+                  letterSpacing: "0.05em",
+                }}
+              >
+                BDP
+              </span>
+              <span className="font-light text-sm text-gray-300 mt-1 tracking-wide">
+                litigio · consultoría
+              </span>
+            </div>
           </Link>
 
           {/* Navigation */}

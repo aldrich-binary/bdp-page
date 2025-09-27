@@ -32,8 +32,9 @@ export function BDPHeader() {
                 </h1>
 
                 <p className="text-xl text-white/80 leading-relaxed max-w-2xl">
-                  Equipo especializado en resolver controversias complejas y
-                  brindar asesoría estratégica a entidades públicas y privadas.
+                  BDP es un equipo especializado en resolver controversias
+                  complejas y brindar asesoría estratégica a entidades públicas
+                  y privadas.
                 </p>
               </div>
 
