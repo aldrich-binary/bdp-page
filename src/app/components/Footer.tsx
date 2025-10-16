@@ -158,10 +158,15 @@ export default function Footer() {
             </svg>
           </Link>
         </div>
-        <span className="text-muted-foreground block text-center text-sm">
-          {" "}
-          © {new Date().getFullYear()} BDP, Todos los derechos reservados.{" "}
-        </span>
+        <div className="text-center text-white/60 text-sm space-y-2">
+          <p>
+            © {new Date().getFullYear()} BDP, Todos los derechos reservados.
+          </p>
+          <p>
+            📧 carlos.lezama@bdplc.com | 📍 Prado Sur 245, Lomas de Chapultepec,
+            CDMX
+          </p>
+        </div>
       </div>
     </footer>
   );

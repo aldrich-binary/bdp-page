@@ -40,13 +40,13 @@ export const Navbar = () => {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            {/* <button
+            <button
               onClick={() => smoothScrollTo("acerca")}
               className="text-white hover:text-white transition-colors duration-200 relative group cursor-pointer"
             >
               Acerca
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all duration-200 group-hover:w-full"></span>
-            </button> */}
+            </button>
 
             <Link href="/services">
               <button className="text-white hover:text-white transition-colors duration-200 relative group cursor-pointer">

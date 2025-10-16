@@ -19,86 +19,37 @@ export const LogoSection = () => {
       <section className=" py-16">
         <div className="mx-auto max-w-5xl px-6">
           <h2 className="text-center text-white text-3xl font-medium">
-            Nuestros clientes
+            Nuestro Enfoque
           </h2>
-          <div className="mx-auto mt-20 flex max-w-4xl flex-wrap items-center justify-center gap-x-12 gap-y-8 sm:gap-x-16 sm:gap-y-12">
-            <img
-              className="h-5 w-fit invert"
-              src="https://html.tailus.io/blocks/customers/nvidia.svg"
-              alt="Nvidia Logo"
-              height="20"
-              width="auto"
-            />
-            <img
-              className="h-4 w-fit invert"
-              src="https://html.tailus.io/blocks/customers/column.svg"
-              alt="Column Logo"
-              height="16"
-              width="auto"
-            />
-            <img
-              className="h-4 w-fit invert"
-              src="https://html.tailus.io/blocks/customers/github.svg"
-              alt="GitHub Logo"
-              height="16"
-              width="auto"
-            />
-            <img
-              className="h-5 w-fit invert"
-              src="https://html.tailus.io/blocks/customers/nike.svg"
-              alt="Nike Logo"
-              height="20"
-              width="auto"
-            />
-            <img
-              className="h-4 w-fit invert"
-              src="https://html.tailus.io/blocks/customers/laravel.svg"
-              alt="Laravel Logo"
-              height="16"
-              width="auto"
-            />
-            <img
-              className="h-7 w-fit invert"
-              src="https://html.tailus.io/blocks/customers/lilly.svg"
-              alt="Lilly Logo"
-              height="28"
-              width="auto"
-            />
-            <img
-              className="h-5 w-fit invert"
-              src="https://html.tailus.io/blocks/customers/lemonsqueezy.svg"
-              alt="Lemon Squeezy Logo"
-              height="20"
-              width="auto"
-            />
-            <img
-              className="h-6 w-fit invert"
-              src="https://html.tailus.io/blocks/customers/openai.svg"
-              alt="OpenAI Logo"
-              height="24"
-              width="auto"
-            />
-            <img
-              className="h-4 w-fit invert"
-              src="https://html.tailus.io/blocks/customers/tailwindcss.svg"
-              alt="Tailwind CSS Logo"
-              height="16"
-              width="auto"
-            />
-            <img
-              className="h-5 w-fit invert"
-              src="https://html.tailus.io/blocks/customers/vercel.svg"
-              alt="Vercel Logo"
-              height="20"
-              width="auto"
-            />
-            <img
-              className="h-5 w-fit invert"
-              src="https://html.tailus.io/blocks/customers/zapier.svg"
-              alt="Zapier Logo"
-              height="20"
-              width="auto"
-            />
+          <div className="mx-auto mt-20 grid grid-cols-1 md:grid-cols-3 gap-12 max-w-4xl">
+            <div className="text-center space-y-4">
+              <div className="text-4xl">⚖️</div>
+              <h3 className="text-white text-xl font-semibold">
+                Orientado a Soluciones
+              </h3>
+              <p className="text-white/70 text-sm">
+                Buscamos siempre entregar un valor agregado a los clientes
+              </p>
+            </div>
+            <div className="text-center space-y-4">
+              <div className="text-4xl">🌱</div>
+              <h3 className="text-white text-xl font-semibold">
+                Innovación Legal
+              </h3>
+              <p className="text-white/70 text-sm">
+                Innovamos en técnicas esenciales para el desarrollo humano
+                sustentable
+              </p>
+            </div>
+            <div className="text-center space-y-4">
+              <div className="text-4xl">🤝</div>
+              <h3 className="text-white text-xl font-semibold">
+                Colaboración Social
+              </h3>
+              <p className="text-white/70 text-sm">
+                Colaboramos activamente con organizaciones de la sociedad civil
+              </p>
+            </div>
           </div>
         </div>
       </section>

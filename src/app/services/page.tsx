@@ -51,9 +51,10 @@ export default function ServicesPage() {
                 Nuestros Servicios Legales
               </h1>
               <p className="text-xl text-white/80 leading-relaxed max-w-3xl mx-auto">
-                Ofrecemos una gama completa de servicios legales especializados
-                en derecho público, diseñados para proteger sus intereses y
-                alcanzar sus objetivos estratégicos.
+                BDP se especializa en litigio y consultoría multidisciplinaria
+                en los distintos ámbitos del derecho público, particularmente en
+                las ramas constitucional, administrativa, regulatoria y
+                electoral.
               </p>
             </div>
           </div>

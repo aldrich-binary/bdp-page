@@ -28,8 +28,14 @@ export default function CallToAction() {
               Trabajemos juntos
             </h2>
             <p className="mt-4 text-white/80">
-              Deja tu correo y te contactaremos.
+              Contáctanos para una consulta especializada en derecho público.
             </p>
+            <div className="mt-6 text-white/70">
+              <p>📧 carlos.lezama@bdplc.com</p>
+              <p className="mt-2">
+                📍 Prado Sur 245, Lomas de Chapultepec, CDMX
+              </p>
+            </div>
 
             <form action="" className="mx-auto mt-10 max-w-sm lg:mt-12">
               <div className="bg-background has-[input:focus]:ring-muted relative grid grid-cols-[1fr_auto] items-center rounded-[calc(var(--radius)+0.75rem)] border pr-3 shadow shadow-zinc-950/5 has-[input:focus]:ring-2">

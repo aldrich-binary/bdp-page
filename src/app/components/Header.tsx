@@ -4,6 +4,7 @@ import BlurText from "@/components/BlurText";
 import { Navbar } from "./Navbar";
 import { ArrowRight, Scale, Users, Shield } from "lucide-react";
 import CountUp from "@/components/CountUp";
+import Link from "next/link";
 
 export function BDPHeader() {
   return (
@@ -20,33 +21,49 @@ export function BDPHeader() {
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
                   <BlurText
                     as="span"
-                    text="Litigio y consultoría en"
+                    text="Litigio y consultoría"
                     delay={120}
                     animateBy="words"
                     direction="top"
                     className="block"
                   />
                   <span className="text-white font-light text-5xl">
-                    derecho público
+                    multidisciplinaria
                   </span>
                 </h1>
 
                 <p className="text-xl text-white/80 leading-relaxed max-w-2xl">
-                  BDP es un equipo especializado en resolver controversias
-                  complejas y brindar asesoría estratégica a entidades públicas
-                  y privadas.
+                  BDP es una firma especializada en litigio y consultoría
+                  multidisciplinaria en los distintos ámbitos del derecho
+                  público, particularmente en las ramas constitucional,
+                  administrativa, regulatoria y electoral.
                 </p>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="cursor-pointer group border border-white/20 hover:border-white/40 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 hover:bg-white/10">
+                <button
+                  onClick={() => {
+                    const element = document.getElementById("contacto");
+                    if (element) {
+                      const offsetTop = element.offsetTop - 100;
+                      window.scrollTo({
+                        top: offsetTop,
+                        behavior: "smooth",
+                      });
+                    }
+                  }}
+                  className="cursor-pointer group border border-white/20 hover:border-white/40 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 hover:bg-white/10"
+                >
                   Agenda una consulta
                   <ArrowRight className="inline-block ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </button>
 
-                <button className="cursor-pointer group border border-white/20 hover:border-white/40 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 hover:bg-white/10">
+                <Link
+                  href="/services"
+                  className="cursor-pointer group border border-white/20 hover:border-white/40 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-200 hover:bg-white/10 text-center"
+                >
                   Conoce nuestros servicios
-                </button>
+                </Link>
               </div>
 
               {/* Stats */}
@@ -55,7 +72,7 @@ export function BDPHeader() {
                   <div className="text-3xl font-bold text-white">
                     <CountUp
                       from={0}
-                      to={15}
+                      to={20}
                       separator=","
                       direction="up"
                       duration={3}
@@ -71,21 +88,20 @@ export function BDPHeader() {
                   <div className="text-3xl font-bold text-white">
                     <CountUp
                       from={0}
-                      to={500}
+                      to={6}
                       separator=","
                       direction="up"
                       duration={3}
                       className="count-up-text"
                     />
-                    +
                   </div>
-                  <div className="text-white/60 text-sm">Casos exitosos</div>
+                  <div className="text-white/60 text-sm">Áreas de práctica</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-white">
                     <CountUp
                       from={0}
-                      to={98}
+                      to={100}
                       separator="%"
                       direction="up"
                       duration={3}
@@ -93,7 +109,7 @@ export function BDPHeader() {
                     />
                     %
                   </div>
-                  <div className="text-white/60 text-sm">Tasa de éxito</div>
+                  <div className="text-white/60 text-sm">Compromiso</div>
                 </div>
               </div>
             </div>
@@ -108,10 +124,10 @@ export function BDPHeader() {
                     </div>
                     <div>
                       <h3 className="text-white font-semibold text-lg">
-                        Litigio Estratégico
+                        Derecho Público
                       </h3>
                       <p className="text-white/70 text-sm">
-                        Defensa especializada en procesos complejos
+                        Constitucional, administrativo y regulatorio
                       </p>
                     </div>
                   </div>
@@ -124,10 +140,10 @@ export function BDPHeader() {
                     </div>
                     <div>
                       <h3 className="text-white font-semibold text-lg">
-                        Consultoría Legal
+                        Soluciones Integrales
                       </h3>
                       <p className="text-white/70 text-sm">
-                        Asesoría multidisciplinaria especializada
+                        Orientados a la solución de problemas
                       </p>
                     </div>
                   </div>
@@ -140,10 +156,10 @@ export function BDPHeader() {
                     </div>
                     <div>
                       <h3 className="text-white font-semibold text-lg">
-                        Protección Legal
+                        Innovación Legal
                       </h3>
                       <p className="text-white/70 text-sm">
-                        Defensa integral de derechos e intereses
+                        Federalismo energético y sustentabilidad
                       </p>
                     </div>
                   </div>

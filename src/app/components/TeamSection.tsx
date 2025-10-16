@@ -1,40 +1,44 @@
-import Link from "next/link";
-
 const members = [
   {
-    name: "Liam Brown",
-    role: "Founder - CEO",
-    avatar: "https://alt.tailus.io/images/team/member-one.webp",
+    name: "Roberto Gil Zuarth",
+    role: "Socio Fundador",
+    avatar:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
     link: "#",
   },
   {
-    name: "Elijah Jones",
-    role: "Co-Founder - CTO",
-    avatar: "https://alt.tailus.io/images/team/member-two.webp",
+    name: "Carlos A. Lezama Fernández",
+    role: "Socio Fundador",
+    avatar:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
     link: "#",
   },
   {
-    name: "Isabella Garcia",
-    role: "Sales Manager",
-    avatar: "https://alt.tailus.io/images/team/member-three.webp",
+    name: "Manuel MacFarland",
+    role: "Socio",
+    avatar:
+      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=face",
     link: "#",
   },
   {
-    name: "Henry Lee",
-    role: "UX Engeneer",
-    avatar: "https://alt.tailus.io/images/team/member-four.webp",
+    name: "Gonzalo José Bolio",
+    role: "Abogado Asociado",
+    avatar:
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
     link: "#",
   },
   {
-    name: "Ava Williams",
-    role: "Interaction Designer",
-    avatar: "https://alt.tailus.io/images/team/member-five.webp",
+    name: "Alonso Zepeda Celis",
+    role: "Abogado Asociado",
+    avatar:
+      "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&h=400&fit=crop&crop=face",
     link: "#",
   },
   {
-    name: "Olivia Miller",
-    role: "Visual Designer",
-    avatar: "https://alt.tailus.io/images/team/member-six.webp",
+    name: "José Antonio Montes",
+    role: "Asociado Líder - Energía",
+    avatar:
+      "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=face",
     link: "#",
   },
 ];
@@ -51,8 +55,9 @@ export default function TeamSection() {
           </div>
           <div className="mt-6 sm:mt-0">
             <p className="text-white text-xl">
-              En BDP, nuestro equipo brinda asesoría y representación legal
-              personalizada y de calidad.
+              Contamos con un equipo de profesionales del derecho con una amplia
+              trayectoria en la práctica del derecho público y disciplinas
+              relacionadas.
             </p>
           </div>
         </div>
