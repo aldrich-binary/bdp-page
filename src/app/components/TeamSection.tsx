@@ -2,8 +2,7 @@ const members = [
   {
     name: "Roberto Gil Zuarth",
     role: "Socio Fundador",
-    avatar:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    avatar: "/2.png",
     link: "#",
   },
   {
@@ -30,8 +29,7 @@ const members = [
   {
     name: "Alonso Zepeda Celis",
     role: "Abogado Asociado",
-    avatar:
-      "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&h=400&fit=crop&crop=face",
+    avatar: "/1.png",
     link: "#",
   },
   {
